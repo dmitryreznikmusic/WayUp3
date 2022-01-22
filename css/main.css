@@ -156,7 +156,8 @@ hr {
 .btn-form {
     border: 0;
     cursor: pointer;
-    width: 340px; 
+    width: 340px;
+    text-size: 17px;
 }
 
 .footer {
