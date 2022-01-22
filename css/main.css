@@ -1,0 +1,174 @@
+ body {
+    font-family: 'Ubuntu', sans-serif;
+    color: #201b2d;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+ }
+
+ div, p, input, button, form, span, a, ul, li {
+     box-sizing: border-box;
+ }
+
+ h1, h2, h3, h4, h5, h6 {
+     margin: 0;
+     font-family: 'Ubuntu', sans-serif; 
+     font-weight: 900;
+ }
+
+ p {
+     line-height: 1.65em;
+ }
+
+ .container {
+     width: 1170px;
+     margin: 0 auto;
+ }
+
+ .header {
+    background: rgba(78,192,254,1);
+    background: -moz-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,192,254,1)), color-stop(100%, rgba(55,144,217,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    background: linear-gradient(135deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ec0fe', endColorstr='#3790d9', GradientType=1 );
+    
+    padding-top: 60px;
+    padding-bottom: 140px; 
+    color: #fff;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer {
+    margin-top: 200px; 
+    width: 520px;
+}
+
+.title {
+    font-size: 37px;
+   
+}
+
+.title span {
+    font-size: 59px ;
+}
+
+.intro {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-bottom: 45px;
+    margin-top: 30px; 
+    width: 400px;
+}
+
+.btn {
+   background: #ffd429;
+   font-family: 'Montserrat', sans-serif;
+   color: #2e2a1b;
+   display: block;
+   width: 222px;
+   padding: 22px 0;
+   text-align: center;
+   text-decoration: none;
+   font-weight: 900;
+   transition: all 0.5s ease;
+}
+
+.btn:hover {
+    background: #e6c43f;
+}
+
+.header-img {
+    margin-top: 70px;
+}
+
+.why-study {
+    padding-top: 108px;
+    /* padding-bottom: 120px; */
+}
+.section-title {
+    font-size: 30px;
+    text-align: center;
+}
+
+.benefits {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 77px; 
+}
+
+.options {
+    text-align: center;
+    width: 280px;
+    background: url('../img/icon1.jpg') no-repeat center top;
+    padding-top: 90px;
+}
+
+.options-title {
+    font-size: 19px; 
+}
+
+.benefit2 {
+    background: url('../img/icon2.jpg') no-repeat center top;
+}
+
+.benefit3 {
+    width: 300px;
+    background: url('../img/icon3.jpg') no-repeat center top;
+}
+
+hr {
+    /* border-style: none; */
+    /* border-top-style: solid; */
+    border-color: rgb(0, 0, 0);
+    /* height: 0px; */
+    border-width: 1px;
+    margin-top: 114px;
+}
+
+.mail {
+    background: #ecf3f8;
+    padding-top: 104px;
+    padding-bottom: 100px;
+}
+
+.input {
+    display: block;
+    width: 340px;
+    height: 48px;
+    border: solid 1px #bbb;
+    border-radius: 3px;
+    margin-bottom: 16px; 
+    padding-left: 16px;
+}
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+}
+
+.btn-form {
+    border: 0;
+    cursor: pointer;
+    width: 340px; 
+}
+
+.footer {
+    background: #164d7a;
+    padding-top: 60px;
+    padding-bottom: 64px;
+}
+
+.credits {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+
